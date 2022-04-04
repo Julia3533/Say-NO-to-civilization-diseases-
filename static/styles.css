@@ -1,0 +1,130 @@
+#homepageimg {
+    position: relative;
+    left: 900px;
+}
+
+#Athero {
+    position: relative;
+    left: 900px;
+    bottom: 500px;
+}
+
+#athero2 {
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+
+}
+
+
+#Depre {
+    position: relative;
+    left: 480px;
+    top: 50px;
+}
+
+
+#Depre2 {
+    position: relative;
+    left: 1100px;
+    bottom: 1050px;
+}
+
+body {
+   background-color: #FFDAB9;
+   font-family: Garamond, serif;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+ol {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+a {
+    font-size: 20px;
+}
+
+#HOME {
+    font-size: 20px;
+}
+
+p {
+    margin-right: 70px;
+}
+
+
+#Hp {
+    position: relative;
+    top: 700px;
+}
+
+
+#Di {
+    position: relative;
+    top: 300px;
+}
+
+#HY {
+    position: relative;
+    top: 700px;
+}
+
+#OB {
+    position: relative;
+    top: 500px;
+}
+
+#ATH {
+    position: relative;
+    top: 550px;
+}
+
+#athero3 {
+         position: relative;
+         bottom: 500px;
+}
+
+
+#obes2 {
+       position: relative;
+       left: 850px;
+       bottom: 530px;
+}
+
+#hyp2 {
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+}
+
+#di1 {
+    position: relative;
+    top: 300px;
+}
+
+#di2 {
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+
+
+input {
+    width: 20%;
+    padding: 10px 15px;
+}
+
+button {
+    width: 10%;
+    padding: 5px 10px;
+}
+
+

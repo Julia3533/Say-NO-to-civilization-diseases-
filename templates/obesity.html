@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Obesity
+{% endblock %}
+
+{% block body %}
+
+<div>
+<h2>When we can talk about obesity?</h2>
+
+<p>In adults, obesity is defined as having a BMI of 30.0 or more, according to the Centers for Disease Control and Prevention (CDC). According to medical datas more and more childrean have obesity too.
+From 2015 to 2016, 18.5 percent (or about 13.7 million) American youth between 2 and 19 years old were considered to have clinical obesity.
+
+ Obesity is associated with a higher risk for serious diseases, such as type 2 diabetes, heart disease, and cancer. It is common condition, the CDC estimates that 42.4 percent of Americans 20 years old and older had obesity in 2017 to 2018.</p>
+
+<p>According to the CDC: “Factors such as age, sex, ethnicity, and muscle mass can influence the relationship between BMI and body fat. Also, BMI doesn’t distinguish between excess fat, muscle, or bone mass, nor does it provide any indication of the distribution of fat among individuals.”</p>
+
+
+<h2>Causes</h2>
+
+<p>Common causes of obesity include:</p>
+
+<ul>
+    <li>Genetics</li>
+    <li>Growing older</li>
+    <li>Polycystic ovary syndrome</li>
+    <li>Bad diet</li>
+    <li>Hypothyroidism </li>
+</ul>
+
+<p>Depression can sometimes lead to weight gain, as some people may turn to food for emotional comfort. Certain antidepressants can also increase the risk of weight gain.</p>
+
+<p>Quitting smoking is always a good thing, but quitting may lead to weight gain too. In some people, it may lead to excessive weight gain.
+Medications, such as steroids or birth control pills, can also raise your risk for weight gain.</p>
+
+
+<h2>Complications</h2>
+
+<p>Obesity has been linked to a number of health complications, some of which can be life threatening if not treated:</p>
+
+<ol>
+   <li>Certain cancers (breast, colon, and endometrial)</li>
+   <li>Stroke</li>
+   <li>Type 2 diabetes</li>
+   <li>High blood pressure</li>
+   <li>Gallbladder disease</li>
+   <li>High cholesterol</li>
+   <li>Infertility</li>
+</ol>
+
+
+<h2>Treatment</h2>
+
+<p>Change your lifestyle is very important, you can go to the dietitian and therapist. Your doctor may also prescribe certain prescription weight loss medications in addition to eating and exercise plans.
+   Medications are usually prescribed only if other methods of weight loss haven’t worked and if you have a BMI of 27.0 or more in addition to obesity-related health issues.
+   The following are approved for long-term use (at least 12 weeks) by the Food and Drug Administration (FDA):</p>
+
+<ul>
+   <li>liraglutide (Saxenda)</li>
+   <li>naltrexone/bupropion (Contrave)</li>
+   <li>phentermine/topiramate (Qsymia)</li>
+</ul>
+
+<h3>You can check your BMI here:</h3>
+
+<form action="/obesity" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="weight" placeholder="Provide your weight in kg" type="text">
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="height" placeholder="Provide your height in cm" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Count my BMI</button>
+    </form>
+
+<a id="OB" href="/">Homepage</a>
+<p></p>
+
+<img src="https://guardian.ng/wp-content/uploads/2019/09/Obesity.jpg" alt="Obesity" width= 500 height= 300>
+
+<p></p>
+
+<img id="obes2" src="https://www.wcrf.org/wp-content/uploads/2020/12/Obesity-656x410-1.png" alt="Obesity2" width= 500 height= 300>
+
+
+</div>
+
+
+{% endblock %}
