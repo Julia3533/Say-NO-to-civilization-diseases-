@@ -1,7 +1,6 @@
 
  # Say NO to civilization diseases!
 
- #### Video Demo : https://www.youtube.com/watch?v=gABeINFqAas
 
  ####  Description:
 
